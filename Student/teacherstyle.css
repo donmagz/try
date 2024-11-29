@@ -1,0 +1,120 @@
+body {
+    background-color: maroon;   
+}
+#header {
+    display: inline-flex;
+}
+
+#student {
+    font-size: 30px;
+    display: inline-flex;
+    margin-left: 175px;
+    margin-top: 65px;
+    color: white;
+}
+#Student-profile {
+    position: absolute;
+    top:  50px;
+    left: 23px;
+    width: 150px;
+    border-radius: 50%;
+}
+li, a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+
+    display: flex;
+    margin-left: 61px;
+    margin-top: 30px;
+}
+li a:hover {
+    background-color: white;
+    color: black;
+}
+.vl {
+    border-left: 2px solid white;
+    height: 800px;
+    position: absolute;
+    left: 381px;
+    margin-left: -3px;
+    top: 70px;
+}
+
+.gallery {
+    position: absolute;
+    margin-left: 430px;
+    background-color: gray;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery:hover {
+    background-color: green;
+    
+}
+
+div.desc {
+    padding: 15px;
+}
+
+
+.gallery2 {
+    position: absolute;
+    margin-left: 800px;
+    background-color: grey;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+div.gallery2 img {
+    width: 100%;
+    height: auto;
+}
+div.gallery2:hover {
+    background-color: green;
+    
+}
+
+.gallery3 {
+    position: absolute;
+    margin-left: 1170px;
+    background-color: gray;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+div.gallery3 img {
+    width: 100%;
+    height: auto;
+}
+div.gallery3:hover {
+    background-color: red;
+    
+}
+
+.gallery4 {
+    position: absolute;
+    margin-left: 1540px;
+    background-color: gray;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+div.gallery4 img {
+    width: 100%;
+    height: auto;
+}
+div.gallery4:hover {
+    background-color: green;
+    
+}
+
+

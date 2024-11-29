@@ -1,0 +1,86 @@
+body {
+    background-color: maroon;   
+    font-family: 'Times New Roman', Times, serif
+}
+
+#header {
+    display: inline-flex;
+}
+
+#admin {
+    font-size: 30px;
+    display: inline-flex;
+    margin-left: 175px;
+    margin-top: 65px;
+    color: white;
+}
+
+#Student-profile {
+    position: absolute;
+    top: 50px;
+    left: 23px;
+    width: 150px;
+    border-radius: 50%;
+}
+#navbar{
+    margin-top: -614px;
+}
+li, a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-left: 61px;
+    margin-top: 30px;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 800px;
+    position: absolute;
+    left: 381px;
+    margin-left: -3px;
+    top: 70px;
+}
+
+.calendar-container {
+    margin-left: 500px;
+    margin-top: -60px;
+    color: white;
+
+}
+
+.calendar-container h2 {
+    margin-bottom: 20px;
+}
+
+.calendar {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.calendar th,
+.calendar td {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 14%;
+    height: 50px;
+}
+
+.calendar th {
+    background-color: maroon;
+    color: white;
+}
+
+p {
+    color: maroon;
+}
+

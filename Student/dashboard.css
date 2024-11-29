@@ -1,0 +1,147 @@
+body {
+    background-color: maroon;
+    
+    
+}
+#header {
+    display: inline-flex;
+}
+
+#student {
+    font-size: 30px;
+    display: inline-flex;
+    margin-left: 175px;
+    margin-top: 65px;
+    color: white;
+}
+#Student-profile {
+    position: absolute;
+    top:  50px;
+    left: 23px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.appoint {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 50px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    width: 300px;
+
+}
+li a {
+    display: inline-flex;
+    color: #000000;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 40px;
+    position: relative;
+    left: 82px;
+    bottom: 520px;
+    color: white;  
+}
+li a:hover {
+    background-color: rgb(152, 7, 7);;
+    color: white;
+}
+.vl {
+    border-left: 2px solid rgb(204, 205, 214);
+    height: 800px;
+    position: absolute;
+    left: 20%;
+    margin-left: -3px;
+    top: 70px;
+}
+.container {
+    display: flex;
+    
+}
+.cards {
+    float: left;
+    color: white;
+}
+#card1 {
+    background-color: rgb(152, 7, 7);
+    padding: 50px;
+    margin: 20px;
+    height: 50px;
+    position: relative;
+    right: -150px;
+    top: 100px; 
+}
+#detail1 {
+    flex: 1;
+    line-height: 1.5;
+}
+
+#card2 {
+    background-color: rgb(152, 7, 7);
+    width: 800px;
+    padding: 50px;
+    margin: 20px;
+    height: 50px;
+    position: relative;
+    right: -150px;
+    top: 100px; 
+}
+
+#detail2 {
+    flex: 1;
+    line-height: 1.5;
+    display: inline-flex;
+}
+
+#card3 {
+    background-color:rgb(152, 7, 7);
+    width: 800px;
+    padding: 50px;
+    margin: 20px;
+    height: 50px;
+    position: relative;
+    right: -150px;
+    top: 100px; 
+}
+
+#detail3 {
+    flex: 1;
+    line-height: 1.5;
+    display: inline-flex;
+}
+
+
+#card4 {
+    background-color:rgb(152, 7, 7);
+    width: 800px;
+    padding: 50px;
+    margin: 20px;
+    height: 50px;
+    position: relative;
+    right: -150px;
+    top: 100px; 
+}
+
+#detail4 {
+    flex: 1;
+    line-height: 1.5;
+    display: inline-flex;
+}
+
+#details p {
+    margin: 0;
+}
+#date-time{
+    font-size: px;
+}
+
+.ads{
+    position: absolute;
+    float: right;
+    right: 120px;
+    margin-top: -600px;
+    color: white;
+    text-align: center;
+}

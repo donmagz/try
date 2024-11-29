@@ -1,0 +1,41 @@
+body {
+    background-color: maroon;   
+}
+#header {
+    display: inline-flex;
+}
+
+#admin {
+    font-size: 30px;
+    display: inline-flex;
+    margin-left: 175px;
+    margin-top: 65px;
+    color: white;
+}
+#Student-profile {
+    position: absolute;
+    top:  50px;
+    left: 23px;
+    width: 150px;
+    border-radius: 50%;
+}
+li, a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    margin-left: 61px;
+    margin-top: 30px;
+}
+li a:hover {
+    background-color: gray;
+}
+.vl {
+    border-left: 2px solid white;
+    height: 800px;
+    position: absolute;
+    left: 381px;
+    margin-left: -3px;
+    top: 70px;
+}
